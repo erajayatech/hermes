@@ -1,3 +1,9 @@
+## 2.1.8 (February 02, 2022)
+  - Merge branch 'master' of github.com:erajayatech/hermes
+  - Merge pull request #7 from erajayatech/hafizarr
+  - 20220202 update models sales_orders
+  - 20220201 update models hermes
+
 ## 2.1.7 (December 10, 2021)
   - Merge branch 'master' of github.com:erajayatech/hermes
   - Merge pull request #6 from erajayatech/hafizarr
