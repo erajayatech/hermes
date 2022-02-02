@@ -12,6 +12,7 @@ type SalesOrder struct {
 	IsRefunded                     int                   `json:"is_refunded"`
 	HoldBeforeStatus               string                `json:"hold_before_status"`
 	Source                         string                `json:"source"`
+	OrderType                      string                `json:"order_type"`
 	IsVirtual                      int                   `json:"is_virtual"`
 	CustomerID                     int64                 `json:"customer_id"`
 	CustomerGroupID                int                   `json:"customer_group_id"`
@@ -85,11 +86,15 @@ type SalesOrder struct {
 	OrderExpired                   time.Time             `json:"order_expired"`
 	DiscountCrmOtpcode             string                `json:"discount_crm_otpcode"`
 	DiscountCrmVouchercode         string                `json:"discount_crm_vouchercode"`
+	OrderTimes                     string                `json:"order_times"`
+	Entity                         string                `json:"entity"`
+	SessionInfo                    string                `json:"session_info" gorm:"column:session_info"`
 }
 
 type SalesOrderItemGroup struct {
 	ID                             int64            `json:"id"`
 	OrderID                        int64            `json:"order_id"`
+	OrderNumberOms                 string           `json:"order_number_oms"`
 	MerchantCode                   string           `json:"merchant_code"`
 	MerchantName                   string           `json:"merchant_name"`
 	MerchantShippingTitle          string           `json:"merchant_shipping_title"`

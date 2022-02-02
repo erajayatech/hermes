@@ -8,6 +8,7 @@ type SalesItemBundling struct {
 	Sku                string    `json:"sku"`
 	Name               string    `json:"name"`
 	Price              int64     `json:"price"`
+	PriceFormated      string    `json:"price_formated"`
 	Fixed              string    `json:"fixed"`
 	Qty                int64     `json:"qty"`
 	DiscountAmount     int64     `json:"discount_amount"`

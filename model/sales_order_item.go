@@ -21,6 +21,8 @@ type SalesOrderItem struct {
 	DiscountInternalAmount         int64                `json:"discount_internal_amount"`
 	DiscountInternalAmountFormated string               `json:"discount_internal_amount_formated"`
 	DiscountInternalJson           string               `json:"discount_internal_json"`
+	TotalPrice                     int64                `json:"total_price"`
+	TotalPriceFormated             string               `json:"total_price_formated"`
 	OrderItemBundlingID            int64                `json:"order_item_bundling_id"`
 	ImageUrl                       string               `json:"image_url"`
 	OriginalPrice                  int64                `json:"original_price"`
