@@ -1,3 +1,8 @@
+## 2.1.9 (February 04, 2022)
+  - Merge branch 'master' of github.com:erajayatech/hermes
+  - Merge pull request #8 from erajayatech/hafizarr
+  - 20220203 add var session o2o
+
 ## 2.1.8 (February 02, 2022)
   - Merge branch 'master' of github.com:erajayatech/hermes
   - Merge pull request #7 from erajayatech/hafizarr
