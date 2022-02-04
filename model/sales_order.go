@@ -89,6 +89,9 @@ type SalesOrder struct {
 	OrderTimes                     string                `json:"order_times"`
 	Entity                         string                `json:"entity"`
 	SessionInfo                    string                `json:"session_info" gorm:"column:session_info"`
+	SessionId                      int                   `json:"session_id"`
+	SessionDate                    string                `json:"session_date"`
+	SessionTime                    string                `json:"session_time"`
 }
 
 type SalesOrderItemGroup struct {
