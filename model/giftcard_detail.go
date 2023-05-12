@@ -8,6 +8,7 @@ type GiftcardDetail struct {
 }
 
 type Card struct {
+	Barcode     string `json:"barcode"`
 	CardNumber  string `json:"card_number"`
 	CardPin     string `json:"card_pin"`
 	Denom       string `json:"denom"`
