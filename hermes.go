@@ -75,6 +75,7 @@ type Body struct {
 	FreeMarkdown Markdown             // Free markdown content that replaces all content other than header and footer
 	SalesOrder   model.SalesOrder     // Add new var custom data
 	Cards        model.GiftcardDetail // Add new var for custom egiftcard data
+	Notify       model.ProductDetail  // Add new var for custom notify data
 }
 
 // ToHTML converts Markdown to HTML
