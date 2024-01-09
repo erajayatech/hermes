@@ -12,6 +12,7 @@ type SalesMerchant struct {
 	MerchantShippingCode           string    `json:"merchant_shipping_code"`
 	MerchantShippingAmount         int64     `json:"merchant_shipping_amount"`
 	MerchantShippingAmountFormated string    `json:"merchant_shipping_amount_formated"`
+	EmeteraiAmount                 int64     `json:"emeterai_amount"`
 	CreatedAt                      time.Time `json:"created_at"`
 	UpdatedAt                      time.Time `json:"updated_at"`
 }
