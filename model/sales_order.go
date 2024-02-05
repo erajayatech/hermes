@@ -92,7 +92,7 @@ type SalesOrder struct {
 	SessionId                      int                   `json:"session_id"`
 	SessionDate                    string                `json:"session_date"`
 	SessionTime                    string                `json:"session_time"`
-	Attribute                      *SalesAttribute       `json:"attribute" gorm:"foreignKey:OrderID;references:ID"`
+	Attribute                      *SalesAttribute       `json:"attribute"`
 }
 
 type SalesOrderItemGroup struct {
